@@ -32,7 +32,11 @@ GroceryItems.xlsx
 GroceryItems.json
 owlready_paper.pdf
 owlready2/
+owlready2_copy/
 prior_ontologies/
+
+# Student-generated ontology files (keep the directory via .gitkeep)
+ontologies/*.owl
 
 # Root-level copies of data files (canonical copies are in data/)
 /ingredients.txt

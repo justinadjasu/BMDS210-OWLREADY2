@@ -1,3 +1,4 @@
-owlready2
+owlready2>=0.25,<0.47
+rdflib
 jupyter
 notebook
