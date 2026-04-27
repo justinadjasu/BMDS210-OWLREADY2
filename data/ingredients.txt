@@ -1,0 +1,162 @@
+Flour
+	SoyFlour
+	WheatFlour
+		WholemealFlour
+		WhiteFlour
+		BrownFlour
+	RiceFlour
+		BrownRiceFlour
+		WholeGrainBrownRiceFlour
+	OatFlour
+		WholeOatFlour
+	WholeSorghumFlour
+	GoldenFlaxFlour
+	ChiaFlour
+	MilletFlour
+	QuinoaFlour
+	AmaranthFlour
+	EnrichedWheatFlour
+GrainStarch
+	WheatStarch
+	Cornstarch
+		ModifiedCornstarch
+		UnmodifiedCornstarch
+FruitProduct
+	Apple
+	BananaPuree
+	Raisin
+	RaisinJuice
+	Coconut
+FlakeProduct
+	OatFlake
+	WheatFlake
+	FruitFlake
+	MilletFlake
+CerealProduct
+	Cereal
+	CerealBar
+	CerealGrain
+		Wheat
+			Buckwheat
+			HardRedWheat
+		Barley
+		Quinoa
+		Rye
+		Triticale
+		Rice
+		Millet
+		Oat
+			WholeGrainOat
+Salt
+	SeaSalt
+	EvaporatedSalt
+Spice
+	Cinnamon
+	Ginger
+	VanillaBean
+SugarProduct
+	WhiteSugar
+	BrownSugar
+	Molasses
+	DehydratedCaneJuice
+	CaneJuiceProduct
+		CaneJuice
+		EvaporatedCaneJuice
+		OrganicEvaporatedCaneJuice
+	InvertCaneSugar
+	FoodSyrup
+		OrganicEvaporatedCaneJuiceInvertSyrup
+		CornSyrup
+		HighFructoseCornSyrup
+		CaneSyrup
+			DriedCaneSyrup
+			InvertCaneSyrup
+PlantOil
+	EssentialOil
+		PeppermintOil
+	VegetableOil
+		SoyBeanOil
+		HydrogenatedSoyBeanOil
+		CottonSeedOil
+		SunflowerOil
+		CanolaOil
+		PalmOil	
+		PalmKernelOil 
+CocoaProduct
+	NaturalCocoa
+	DutchedCocoa
+DairyProduct
+	Whey
+	Milk
+	MilkPowder
+		SkimMilkPowder
+		WholeMilkPowder
+	ButterProduct
+		Butter
+		CocoaButter
+Extract
+	VanillaExtract
+ChocolateProduct
+	Chocolate
+	SemiSweetChocolateChips
+	SweetChocolateCoating
+	WhiteChocolate
+	ChocolateLiquor
+FudgeCoating
+Honey
+Gelatin
+Gluten
+Lactose
+SodiumBicarbonate
+Soy
+AmmoniumBicarbonate
+CreamOfTartre
+TripotassiumPhosphate
+SoyLecithin
+Fructan
+ChiaSeed
+Semolina
+NutProduct
+	Nut
+		Macadamia
+		Pecan
+		Walnut
+		Cashew
+		Almond
+		Hazelnut
+	TreeNutMeal
+Egg
+	ChickenEgg
+RaisinJuiceConcentrate
+Vitamer
+	Tocopherols
+	SodiumAscorbate
+	Niacinamide
+	Niacin
+	PyridoxineHydrochloride
+	Palmitate
+	Riboflavin
+	ThiaminMononitrate
+	FolicAcid
+	AlphaTocopherolAcetate
+Vitamin
+	VitaminA
+	VitaminB1
+	VitaminB2
+	VitaminB3
+	VitaminB5
+	VitaminB6
+	VitaminB7
+	VitaminB9
+	VitaminB12
+	VitaminC
+	VitaminD
+	VitaminD2
+	VitaminD3
+	VitaminE
+	VitaminK
+MineralNutrient
+	Iron
+	ReducedIron
+	Zinc
+	CalciumCarbonate

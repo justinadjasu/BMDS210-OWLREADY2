@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# owlready2 quadstore cache
+*.sqlite3
+
+# Course materials (distributed separately, not part of this repo)
+hands-on-owl.pdf
+schematic.pdf
+Introduction To OWL.key
+GroceryItems.xlsx
+GroceryItems.json
+owlready_paper.pdf
+owlready2/
+prior_ontologies/
+
+# Root-level copies of data files (canonical copies are in data/)
+/ingredients.txt
+/Cookie-Products.pdf
