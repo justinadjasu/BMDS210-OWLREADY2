@@ -39,5 +39,4 @@ prior_ontologies/
 ontologies/*.owl
 
 # Root-level copies of data files (canonical copies are in data/)
-/ingredients.txt
-/Cookie-Products.pdf
+owl2_cookie_ontology_solutions.ipynb

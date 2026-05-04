@@ -66,7 +66,6 @@ BMDS210-OWLREADY2/
 │   └── Cookie-Products.pdf      # Cookie product reference sheets
 ├── ontologies/                  # Save your ontology files here
 ├── owl2_cookie_ontology.ipynb          # Student notebook
-└── owl2_cookie_ontology_solutions.ipynb # Solutions (instructor use)
 ```
 
 ## Verifying Java for Reasoning
