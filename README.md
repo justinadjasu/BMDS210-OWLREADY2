@@ -21,7 +21,7 @@ mamba activate BMDSOWL
 pip install -r requirements.txt
 
 # Launch the notebook
-jupyter notebook owl2_cookie_ontology.ipynb
+jupyter notebook owl2_cookie_ontology-v2.ipynb
 ```
 
 ## Learning Objectives
