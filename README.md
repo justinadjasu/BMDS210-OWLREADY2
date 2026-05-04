@@ -62,21 +62,64 @@ BMDS210-OWLREADY2/
 ├── README.md
 ├── requirements.txt
 ├── data/
-│   ├── ingredients.txt          # Ingredient taxonomy (parsed in Section 3)
-│   └── Cookie-Products.pdf      # Cookie product reference sheets
-├── ontologies/                  # Save your ontology files here
-├── owl2_cookie_ontology.ipynb          # Student notebook
+│   ├── ingredients.txt            # Ingredient taxonomy (parsed in Notebook 1, Section 3)
+│   ├── Cookie-Products.pdf        # Cookie product reference sheets
+│   ├── goslim_generic.owl         # Gene Ontology generic slim (Notebook 2)
+│   └── disease_ontology_subset.owl # Disease Ontology cancer subset (Notebook 2)
+├── ontologies/                    # Save your ontology files here
+├── owl2_cookie_ontology.ipynb               # Notebook 1: Building an ontology from scratch
+└── owl2_loading_extending_merging.ipynb     # Notebook 2: Loading, extending, and merging ontologies
 ```
 
-## Verifying Java for Reasoning
+## Installing Java for Reasoning
 
-Section 9 uses the HermiT reasoner, which requires Java. To check:
+The HermiT reasoner (used in the reasoning sections of both notebooks) requires a Java runtime. The easiest approach is to install Java directly into your mamba/conda environment so the notebooks can find it automatically.
+
+### Option 1: Install via mamba/conda (recommended)
 
 ```bash
-java -version
+# Install OpenJDK into the BMDSOWL environment
+mamba install -n BMDSOWL -c conda-forge openjdk -y
+
+# Verify it installed correctly
+mamba run -n BMDSOWL java -version
 ```
 
-If Java is not installed, the notebook will skip reasoning exercises and explain what the expected output would be.
+The notebooks already include setup code that detects and uses the environment's Java installation via `CONDA_PREFIX` — no extra configuration needed.
+
+### Option 2: Install system-wide
+
+**macOS (Homebrew):**
+```bash
+brew install openjdk
+```
+
+After installing, add it to your shell profile (`~/.zshrc` or `~/.bash_profile`):
+```bash
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH="$JAVA_HOME/bin:$PATH"
+```
+
+Then restart your terminal (or run `source ~/.zshrc`).
+
+**Ubuntu/Debian:**
+```bash
+sudo apt install default-jdk
+```
+
+**Windows:**
+
+Download and install from [Adoptium](https://adoptium.net/) (Eclipse Temurin). The installer will set `JAVA_HOME` and update `PATH` for you.
+
+### Verifying Java
+
+From within the environment, confirm Java is accessible:
+
+```bash
+mamba run -n BMDSOWL java -version
+```
+
+You should see output like `openjdk version "21.x.x"` or similar. If Java is not installed, the reasoning cells will catch the error gracefully and explain what the expected output would be — the rest of the notebook still works.
 
 ## References
 

@@ -1,0 +1,469 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://purl.obolibrary.org/obo/doid/subsets/do_tutorial_slim.owl"
+         xmlns="http://purl.obolibrary.org/obo/doid/subsets/do_tutorial_slim.owl#">
+
+<owl:Ontology rdf:about="http://purl.obolibrary.org/obo/doid/subsets/do_tutorial_slim.owl"/>
+
+<owl:AnnotationProperty rdf:about="#hasExactSynonym"/>
+
+<owl:AnnotationProperty rdf:about="#hasDbXref"/>
+
+<owl:AnnotationProperty rdf:about="#definition"/>
+
+<owl:Class rdf:about="#DOID_162">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_1612">
+  <rdfs:subClassOf rdf:resource="#DOID_162"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast cancer</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organ system cancer that originates in the mammary gland.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_3459">
+  <rdfs:subClassOf rdf:resource="#DOID_1612"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast carcinoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A breast cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0050938">
+  <rdfs:subClassOf rdf:resource="#DOID_3459"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast lobular carcinoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A breast carcinoma that derives_from breast lobules (milk glands).</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_3007">
+  <rdfs:subClassOf rdf:resource="#DOID_3459"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast ductal carcinoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A breast carcinoma that derives_from the lining of milk ducts.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_3458">
+  <rdfs:subClassOf rdf:resource="#DOID_3459"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast adenocarcinoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A breast carcinoma that originates in the milk ducts and/or lobules (glandular tissue) of the breast.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_7953">
+  <rdfs:subClassOf rdf:resource="#DOID_3459"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nipple duct carcinoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nipple carcinoma that is located_in the nipple duct.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0060075">
+  <rdfs:subClassOf rdf:resource="#DOID_1612"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">estrogen-receptor positive breast cancer</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A breast cancer that is characterized by the presence of estrogen receptors.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0060076">
+  <rdfs:subClassOf rdf:resource="#DOID_1612"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">estrogen-receptor negative breast cancer</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A breast cancer that is characterized by the absence of estrogen receptors.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0060079">
+  <rdfs:subClassOf rdf:resource="#DOID_1612"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Her2-receptor positive breast cancer</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A breast cancer that is characterized by the presence of Her2 receptors.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0060080">
+  <rdfs:subClassOf rdf:resource="#DOID_1612"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Her2-receptor negative breast cancer</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A breast cancer that is characterized by the absence of Her2 receptors.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0060081">
+  <rdfs:subClassOf rdf:resource="#DOID_1612"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">triple-receptor negative breast cancer</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A breast cancer that is characterized by the absence of estrogen, progresterone and Her2 receptors.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_4511">
+  <rdfs:subClassOf rdf:resource="#DOID_1612"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast angiosarcoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An angiosarcoma and sarcoma of breast and vascular neoplasm of breast that is located_in the cells that line the blood vessels within the breast or underarm area.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_2531">
+  <rdfs:subClassOf rdf:resource="#DOID_162"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematologic cancer</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organ system cancer located in the hematological system that is characterized by uncontrolled cellular proliferation in blood, bone marrow and lymph nodes.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_4960">
+  <rdfs:subClassOf rdf:resource="#DOID_2531"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow cancer</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hematopoietic cancer that derives_from the blood-forming stem cells of the bone marrow.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0070004">
+  <rdfs:subClassOf rdf:resource="#DOID_4960"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid neoplasm</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bone marrow cancer that is formed of any one of the bone marrow cells belonging to the granulocytic (neutrophil, eosinophil, basophil), monocytic/macrophage, erythroid, megakaryocytic and mast cell lineages.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0050908">
+  <rdfs:subClassOf rdf:resource="#DOID_4960"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myelodysplastic syndrome</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bone marrow cancer that is characterized by under production of white blood cells, red blood cells and platelets.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0060058">
+  <rdfs:subClassOf rdf:resource="#DOID_2531"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hematologic cancer that affects lymphocytes that reside in the lymphatic system and in blood-forming organs.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0060060">
+  <rdfs:subClassOf rdf:resource="#DOID_0060058"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-Hodgkin lymphoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lymphoma that is characterized as any kind of lymphoma except Hodgkin's lymphoma.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_5823">
+  <rdfs:subClassOf rdf:resource="#DOID_0060058"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood lymphoma</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0080148">
+  <rdfs:subClassOf rdf:resource="#DOID_0060058"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell childhood lymphoblastic lymphoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lymphoblastic lymphoma that has_material_basis_in T-cells and that occurs during childhood.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_8567">
+  <rdfs:subClassOf rdf:resource="#DOID_0060058"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hodgkin's lymphoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lymphoma that is marked by the presence of a type of cell called the Reed-Sternberg cell.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_5621">
+  <rdfs:subClassOf rdf:resource="#DOID_2531"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histiocytic and dendritic cell cancer</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sarcoma and hematologic cancer that derives_from follicular lymphoma.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0080915">
+  <rdfs:subClassOf rdf:resource="#DOID_5621"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histiocytic sarcoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A histiocytic and dendritic cell cancer that is characterized by the presence of neoplastic cells with morphologic and immunophenotypic characteristics similar to those seen in mature histiocytes.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_6262">
+  <rdfs:subClassOf rdf:resource="#DOID_5621"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follicular dendritic cell sarcoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dendritic cell sarcoma cancer that effects the follicular dendritic cells.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_7146">
+  <rdfs:subClassOf rdf:resource="#DOID_5621"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Langerhans cell sarcoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A histiocytic and dendritic cell cancer that derives from the lymph nodes, derives from the skin, derives from the liver, derives from the spleen and derives from bones.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_7848">
+  <rdfs:subClassOf rdf:resource="#DOID_5621"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interdigitating dendritic cell sarcoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A histiocytic and dendritic cell cancer that effect dendritic cells.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_1240">
+  <rdfs:subClassOf rdf:resource="#DOID_2531"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukemia</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cancer that affects the blood or bone marrow characterized by an abnormal proliferation of blood cells.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_9119">
+  <rdfs:subClassOf rdf:resource="#DOID_1240"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute myeloid leukemia</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A myeloid leukemia that is characterized by the rapid growth of abnormal white blood cells that accumulate in the bone marrow and interfere with the production of normal blood cells.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_1036">
+  <rdfs:subClassOf rdf:resource="#DOID_1240"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic leukemia</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A leukemia that develops slowly.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_8552">
+  <rdfs:subClassOf rdf:resource="#DOID_1240"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic myeloid leukemia</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A myeloid leukemia that is characterized by over production of white blood cells.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_1037">
+  <rdfs:subClassOf rdf:resource="#DOID_1240"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid leukemia</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A leukemia that has_material_basis_in a B-cell or T-cell lineage involving primarily the bone marrow and the peripheral blood.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_7757">
+  <rdfs:subClassOf rdf:resource="#DOID_1240"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood leukemia</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A leukemia that occurs in children.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_9254">
+  <rdfs:subClassOf rdf:resource="#DOID_1240"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mast-cell leukemia</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A leukemia that results_in an overwhelming number of tissue mast cells located_in peripheral blood.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_3664">
+  <rdfs:subClassOf rdf:resource="#DOID_2531"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mast cell neoplasm</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hematologic cancer that has_material_basis_in mast cells.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_1324">
+  <rdfs:subClassOf rdf:resource="#DOID_162"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung cancer</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A respiratory system cancer that is located_in the lung.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_3905">
+  <rdfs:subClassOf rdf:resource="#DOID_1324"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung carcinoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lung cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells and is located_in the lungs and has_symptom cough and has_symptom chest discomfort or pain and has_symptom weight loss and has_symptom hemoptysis.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_5409">
+  <rdfs:subClassOf rdf:resource="#DOID_3905"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung small cell carcinoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lung carcinoma that has_material_basis_in primitive-appearing cells that are smaller than normal cells and is located_in the lung.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0050932">
+  <rdfs:subClassOf rdf:resource="#DOID_3905"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung mucoepidermoid carcinoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lung carcinoma that has_material_basis_in a combination of squamous cells, mucus secreting cells and intermediate cells.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_3908">
+  <rdfs:subClassOf rdf:resource="#DOID_3905"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung non-small cell carcinoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lung carcinoma that is characterized as any type of epithelial lung cancer other than small cell lung carcinoma.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_4765">
+  <rdfs:subClassOf rdf:resource="#DOID_1324"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pulmonary blastoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lung cancer that has_material_basis_in tissues of the lung and has_material_basis_in pleural tissues. It is most commonly effects children.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_4769">
+  <rdfs:subClassOf rdf:resource="#DOID_4765"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pleuropulmonary blastoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pulmonary blastoma that derives_from the lung or pleural cavity.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_4829">
+  <rdfs:subClassOf rdf:resource="#DOID_1324"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenosquamous lung carcinoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An adenosquamous carcinoma located_in lung that derives_from lung tissue composed of at least 10% by volume each of squamous cell carcinoma (SqCC) and adenocarcinoma (AdC) cells.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_1319">
+  <rdfs:subClassOf rdf:resource="#DOID_162"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain cancer</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A central nervous system cancer that is characterized by the growth of abnormal cells in the tissues of the brain.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0050899">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain stem medulloblastoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brain stem cancer that begins in the lower part of the brain on the floor of the skull.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0050902">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulloblastoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An infratentorial cancer that is located_in the lower part of the brain and is a type of primitive neuroectodermal tumor.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0080702">
+  <rdfs:subClassOf rdf:resource="#DOID_0050902"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulloblastoma WNT activated</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A medulloblastoma that is characterized as a molecular subtype by activation of the WNT pathway and TP53 mutations may be present or absent.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0080703">
+  <rdfs:subClassOf rdf:resource="#DOID_0050902"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulloblastoma SHH activated</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A medulloblastoma that is characterized as a molecular subtype by activation of the sonic hedgehog (SHH) pathway and TP53 mutations that may be present or absent.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0080706">
+  <rdfs:subClassOf rdf:resource="#DOID_0050902"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulloblastoma non-WNT/non-SHH</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A medulloblastoma that is characterized as a molecular subtype that is not associated with activation of the WNT pathway or sonic hedgehog (SHH) pathway and TP53 mutations are absent.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_3857">
+  <rdfs:subClassOf rdf:resource="#DOID_0050902"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large cell medulloblastoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A medulloblastoma that is characterized by cells that are larger than would be normally expected.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_3861">
+  <rdfs:subClassOf rdf:resource="#DOID_0050902"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medullomyoblastoma</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_3869">
+  <rdfs:subClassOf rdf:resource="#DOID_0050902"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood medulloblastoma</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_3873">
+  <rdfs:subClassOf rdf:resource="#DOID_0050902"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desmoplastic/nodular medulloblastoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A medulloblastoma that is characterized by the presence of nodular, collagenous areas which do not contain reticulin, surrounded by hypercellular areas which contain an intercellular reticulin fiber network.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0050903">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parietal lobe ependymoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A parietal lobe neoplasm that has_material_basis_in cells lining the ventricles of the brain.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0060104">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebellar medulloblastoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cerebellum cancer that begins in the lower part of the brain on the floor of the skull.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0060108">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain glioma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brain cancer that has_material_basis_in glial cells.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_3187">
+  <rdfs:subClassOf rdf:resource="#DOID_0060108"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain oligodendroglioma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brain glioma that has_material_basis_in oligodendrocytes.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_3073">
+  <rdfs:subClassOf rdf:resource="#DOID_0060108"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain glioblastoma multiforme</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brain glioma that has_material_basis_in abnormally proliferating cells derives_from glial cells, has_symptom seizure, headaches, nausea and vomiting, memory loss, changes to personality, mood or concentration; and localized neurological problems.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0081314">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extraventricular neurocytoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cerebral ventricle cancer that is characterized by the presence of neoplastic uniform, round cells with neuronal differentiation, that arises from the brain parenchyma. Unlike central neurocytoma, it does not involve the lateral ventricles.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_0081316">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary intracranial sarcoma, DICER1-mutant</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brain sarcoma that is composed of malignant pleomorphic or spindle neoplastic cells typically demonstrating myogenic and/or chondroid differentiation. Cytoplasmic eosinophilic globules and myxoid stroma formation are usually present. It is associated with mutations in the DICER1 gene.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_14174">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">central neurocytoma</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_2129">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atypical teratoid rhabdoid tumor</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brain cancer that is usually located in the brain, but can occur anywhere in the central nervous system.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_3545">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood choroid plexus cancer</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_4206">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood brain stem neoplasm</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brain stem cancer characterized by mass lesion of the brainstem in childhood, associated cranial nerve nuclei and long tracts, has_material_basis_in abnormally proliferating cells.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_6383">
+  <rdfs:subClassOf rdf:resource="#DOID_4206"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood brain stem glioma</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_4207">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood infratentorial neoplasm</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brain stem cancer in the infratentorial region of the brain in childhood, characterized by mass lesion of the brainstem, associated cranial nerve nuclei and long tracts, has_material_basis_in abnormally proliferating cells.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_7522">
+  <rdfs:subClassOf rdf:resource="#DOID_4207"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood infratentorial embryonal tumor with multilayered rosettes, C19MC-altered</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A childhood embryonal tumor with multilayered rosettes, C19MC-altered that arises from the infratentorial region and occurs in children.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_5059">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood cerebellar neoplasm</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_5648">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">choroid plexus carcinoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A choroid plexus cancer that has_material_basis_in epithelial cells of the choroid plexus.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_6128">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gliomatosis cerebri</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brain cancer that is characterized by a pattern of diffuse infiltration of the brain that affect various areas of the cerebral lobes and has_material_basis_in abnormally proliferating cells, derives_from glial cells.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_6286">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood cerebellar astrocytic neoplasm</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_6458">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebellar liponeurocytoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cerebellum cancer that is characterized by consistent neuronal, variable astrocytic and focal lipomatous differentiation.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_6939">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood brain meningioma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brain meningioma of childhood that is characterized by brain tumor which develops from the membranes that surround the brain and spinal cord, has_material_basis_in abnormally proliferating cells derives_from meningeal cells of embryonic ectoderm origin.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_7007">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood cerebral astrocytoma</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_7429">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood brain germinoma</rdfs:label>
+  <definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brain germinoma that is characterized by tumor of the germ cell in childhood that has_material_basis_in abnormally proliferating cells derives_from germ cells, located_in pineal area and located_in suprasellar area.</definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_7501">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood infratentorial ependymoma</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DOID_7502">
+  <rdfs:subClassOf rdf:resource="#DOID_1319"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood supratentorial ependymoma</rdfs:label>
+</owl:Class>
+
+
+</rdf:RDF>
