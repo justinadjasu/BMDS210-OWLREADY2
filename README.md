@@ -16,6 +16,8 @@ git clone <repo-url>
 cd BMDS210-OWLREADY2
 
 # Install dependencies
+mamba create -n BMDSOWL python=3.11
+mamba activate BMDSOWL
 pip install -r requirements.txt
 
 # Launch the notebook
