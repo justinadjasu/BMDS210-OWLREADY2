@@ -102,10 +102,6 @@ export PATH="$JAVA_HOME/bin:$PATH"
 
 Then restart your terminal (or run `source ~/.zshrc`).
 
-**Windows:**
-
-Download and install from [Adoptium](https://adoptium.net/) (Eclipse Temurin). The installer will set `JAVA_HOME` and update `PATH` for you.
-
 ### Verifying Java
 
 From within the environment, confirm Java is accessible:
