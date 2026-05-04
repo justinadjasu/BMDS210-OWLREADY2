@@ -1,0 +1,38 @@
+{
+  "WalkersShortbreadFingersBox": {
+    "totalFat": 6.0,
+    "saturatedFat": 4.0,
+    "sodium": 50.0,
+    "sugar": 3.0
+  },
+  "LotusBiscoffCookiesItem": {
+    "totalFat": 6.0,
+    "saturatedFat": 3.0,
+    "sodium": 120.0,
+    "sugar": 12.0
+  },
+  "BackToNatureFudgeMintCookiesItem": {
+    "totalFat": 7.0,
+    "saturatedFat": 4.5,
+    "sodium": 50.0,
+    "sugar": 10.0
+  },
+  "MallomarsCookiesPureChocolateItem": {
+    "totalFat": 5.0,
+    "saturatedFat": 3.0,
+    "sodium": 35.0,
+    "sugar": 12.0
+  },
+  "KashiCrunchChocolateChipBarItem": {
+    "totalFat": 5.0,
+    "saturatedFat": 2.0,
+    "sodium": 100.0,
+    "sugar": 7.0
+  },
+  "PepperidgeFarmTahoeWhiteChocolateMacadamiaCookiesItem": {
+    "totalFat": 8.0,
+    "saturatedFat": 3.5,
+    "sodium": 85.0,
+    "sugar": 10.0
+  }
+}

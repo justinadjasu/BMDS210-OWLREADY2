@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "item_class": "BackToNatureFudgeMintCookiesItem",
+      "cookie_class": "FudgeMintCookie",
+      "cookie_parent": "Cookie",
+      "depiction": "http://i.imgur.com/q782EtN.jpg",
+      "ingredients": [
+        "FudgeCoating", "WheatFlour", "EvaporatedCaneJuice", "PalmOil",
+        "DutchedCocoa", "OrganicEvaporatedCaneJuiceInvertSyrup",
+        "SodiumBicarbonate", "SeaSalt", "SoyLecithin", "PeppermintOil"
+      ],
+      "alt_ingredients": {}
+    },
+    {
+      "item_class": "MallomarsCookiesPureChocolateItem",
+      "cookie_class": "MallomarsCookie",
+      "cookie_parent": "Cookie",
+      "depiction": "http://i.imgur.com/giWpIbx.jpg",
+      "ingredients": [
+        "SweetChocolateCoating", "EnrichedWheatFlour", "WhiteSugar",
+        "HighFructoseCornSyrup", "CornSyrup",
+        "InvertCaneSugar", "Gelatin", "SodiumBicarbonate", "Salt", "SoyLecithin"
+      ],
+      "alt_ingredients": {
+        "oils": ["CanolaOil", "PalmOil", "PalmKernelOil"]
+      }
+    },
+    {
+      "item_class": "KashiCrunchChocolateChipBarItem",
+      "cookie_class": "KashiCrunchChocolateChipBar",
+      "cookie_parent": "Cookie",
+      "depiction": "http://i.imgur.com/PR0kmvA.jpg",
+      "ingredients": [
+        "WholeGrainOat", "Barley", "Buckwheat", "HardRedWheat", "Triticale",
+        "Quinoa", "DriedCaneSyrup", "SemiSweetChocolateChips", "CanolaOil",
+        "InvertCaneSyrup", "UnmodifiedCornstarch", "ChiaSeed", "BrownRiceFlour",
+        "Coconut", "WholeOatFlour", "EvaporatedSalt", "Molasses",
+        "VanillaExtract", "SodiumBicarbonate", "SoyLecithin"
+      ],
+      "alt_ingredients": {}
+    },
+    {
+      "item_class": "PepperidgeFarmTahoeWhiteChocolateMacadamiaCookiesItem",
+      "cookie_class": "WhiteChocolateMacadamiaCookie",
+      "cookie_parent": "Cookie",
+      "depiction": "http://i.imgur.com/1WSAbEU.jpg",
+      "ingredients": [
+        "EnrichedWheatFlour", "WhiteChocolate", "WhiteSugar",
+        "Macadamia", "Butter", "BrownSugar", "Egg",
+        "SodiumBicarbonate", "CreamOfTartre", "AmmoniumBicarbonate",
+        "Salt", "Cornstarch", "TreeNutMeal"
+      ],
+      "alt_ingredients": {
+        "oils": ["PalmOil", "HydrogenatedSoyBeanOil", "CottonSeedOil"]
+      }
+    }
+  ],
+  "sub_ingredients": {
+    "FudgeCoating": ["WhiteSugar", "PalmKernelOil", "Whey", "SoyLecithin"],
+    "SweetChocolateCoating": ["WhiteSugar", "Chocolate", "CocoaButter", "DutchedCocoa"],
+    "EnrichedWheatFlour": ["WheatFlour", "Niacin", "ReducedIron", "ThiaminMononitrate", "Riboflavin", "FolicAcid"],
+    "SemiSweetChocolateChips": ["DriedCaneSyrup", "ChocolateLiquor", "CocoaButter", "SoyLecithin", "VanillaBean"],
+    "WhiteChocolate": ["WhiteSugar", "CocoaButter", "SkimMilkPowder", "SoyLecithin", "VanillaExtract"],
+    "TreeNutMeal": ["Pecan", "Macadamia", "Walnut", "Cashew", "Almond"]
+  }
+}
