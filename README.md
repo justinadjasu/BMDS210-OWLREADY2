@@ -102,11 +102,6 @@ export PATH="$JAVA_HOME/bin:$PATH"
 
 Then restart your terminal (or run `source ~/.zshrc`).
 
-**Ubuntu/Debian:**
-```bash
-sudo apt install default-jdk
-```
-
 **Windows:**
 
 Download and install from [Adoptium](https://adoptium.net/) (Eclipse Temurin). The installer will set `JAVA_HOME` and update `PATH` for you.
